@@ -1,0 +1,499 @@
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/********************Main page**********************/
+#mainPic{
+  width:1290px;
+  height:900px;
+  position:relative;
+  z-index: 1;
+
+}
+#mainPic2{
+  width:1290px;
+  height:900px;
+  position:relative;
+  z-index: 1;
+  margin-top: -10px;
+
+}
+#heliosPic{
+  position: absolute;
+  width:700px;
+  height:900px;
+  margin-left:330px;
+  z-index: 2;
+}
+#homeReturn{
+  position: absolute;
+  width:150px;
+  height:150px;
+  z-index: 2;
+  margin-left:10px;
+}
+#vaporTextPic{
+  position: absolute;
+  z-index: 3;
+  width:850px;
+  height:350px;
+  margin-top: 430px;
+  margin-left:250px;
+}
+nav{
+  position: absolute;
+  z-index:3;
+  padding:8px;
+  margin-top: 10px;
+}
+li{
+  display: inline-block;
+  font-size: 1.6em;
+  margin-left: 100px;
+  padding-left: 60px;
+  color:#72F4B5;
+  list-style: none;
+}
+a:link
+{
+    text-decoration: none;
+
+}
+a:visited
+{
+    color:#72F4B5;
+}
+.Layout{
+  display: flex;
+  flex-direction:row;
+  flex-wrap: wrap;
+}
+.MainBkg{
+  background-image: url('../images/shop_page.jpg');
+  background-size: 2000px 2900px;
+  background-repeat: no-repeat;
+}
+#mainPageHeader{
+	position: relative;
+  z-index:4;
+	margin-top: 800px;
+	font-size: 5.2em;
+  text-align: center;
+  padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+#mainPageText{
+	position: relative;
+  z-index:5;
+	margin-top:48px;
+  padding-top: 50px;
+	font-family: open-sans, sans-serif;
+	font-size:1.9em;
+	text-align: center;
+	color: white;
+	margin-left: 20px;
+}
+/******************shop************************/
+#shopMainHeader{
+  font-size: 5.2em;
+  text-align: center;
+  padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+#shopLayoutTop{
+	display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+	justify-content: space-between;
+}
+#shopLayoutBottom{
+	display: flex;
+  flex-direction:row;
+  flex-wrap:wrap;
+	justify-content: space-around;
+
+}
+.shopClothesPic{
+  width:300px;
+  height:300px;
+}
+#shopClothesPicShoes{
+	width:250px;
+  height:200px;
+	margin-top: 80px;
+}
+#shopClothesPicJacket{
+	width:330px;
+  height:340px;
+	margin-top:-20px;
+}
+#shopClothesPicMusic{
+	width:220px;
+	height:220px;
+	margin-top:40px;
+}
+.shopText{
+	font-family: open-sans, sans-serif;
+	font-size:1.4em;
+	text-align: center;
+	color: white;
+
+}
+.shopOrganize{
+	float: left;
+	clear:both;
+
+}
+/*****************shop shirts******************/
+.shopShirtPic{
+	width:300px;
+  height:300px;
+}
+
+/*********************shop jackets*********************/
+.shopJacketPic{
+	width:300px;
+	height:300px;
+}
+#shopJacketPic4{
+	width:300px;
+	height:250px;
+}
+#shopJacketPic5{
+	width:300px;
+	height:250px;
+}
+/******************shop shoes********************/
+.shopShoesPic{
+	width:300px;
+	height:300px;
+}
+.shopShoesPic1{
+	width:200px;
+	height:200px;
+	margin-top: 30px;
+	margin-left:70px;
+}
+.shopTextShoes{
+	font-family: open-sans, sans-serif;
+	font-size:1.4em;
+	text-align: center;
+	color: white;
+	margin-top: 66px;
+}
+/********************shop accessories*********************/
+.shopClothesPicAccess{
+	width:300px;
+	height:300px;
+
+}
+.shopClothesPicAccess1{
+	width:200px;
+	height:200px;
+	margin-top: 60px;
+	margin-right: -10px;
+	padding:10px;
+
+}
+.shopTextAccess{
+	font-family: open-sans, sans-serif;
+	font-size:1.4em;
+	text-align: center;
+	color: white;
+	margin-top:30px;
+}
+.shopTextAccess1{
+	font-family: open-sans, sans-serif;
+	font-size:1.4em;
+	text-align: center;
+	color: white;
+	margin-top:50px;
+}
+/***************shop music***********************/
+.shopMusicPics{
+	width:300px;
+	height:300px;
+	padding:20px;
+}
+/*******************Events***************/
+.eventsPic{
+  width:250px;
+  height:250px;
+  margin-top:100px;
+  margin-left:60px;
+}
+#eventHeader{
+  font-size: 5.2em;
+  text-align: center;
+  padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+.eventPics{
+	width:500px;
+	height:300px;
+	margin-left: 400px;
+}
+.tourDates{
+	margin-top: 20px;
+	font-size: 1.2em;
+	font-family: open-sans, sans-serif;
+	text-align: center;
+}
+#eventHeader{
+  font-size: 5.2em;
+  text-align: center;
+  padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+#eventHeaderBB{
+	font-size: 5.2em;
+  text-align: center;
+  padding-top: 120px;
+	font-family: montserrat, sans-serif;
+  color: white;
+
+}
+
+/*****************Other Wave pic************************/
+.wavesPic{
+	width:260px;
+	height:260px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top:150px;
+	margin-left:60px;
+}
+#wavesMainHeader{
+	font-size: 5.2em;
+  text-align: center;
+  padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+.otherWaveText{
+	text-align: center;
+	font-size: 1.3em;
+	font-family: open-sans, sans-serif;
+}
+#WaveLayoutTop{
+	display: flex;
+  flex-direction:row;
+  flex-wrap: nowrap;
+	margin-left: 130px;
+}
+#WaveLayoutBottom{
+	display: flex;
+	flex-direction:row;
+	flex-wrap: nowrap;
+	margin-left: 300px;
+}
+#otherWaveBannerSimpson{
+	background-image: url('../images/simpsonwave-sunday-school-video-source-youtube-user-Lucien-Hughes.jpg');
+	background-position: right;
+	height:300px;
+}
+#otherWaveBannerSythn{
+	background-image: url('../images/	How-To-Make-Synthwave-Music.jpg');
+	background-repeat: repeat-x;
+	height:300px;
+
+}
+.otherWavesHeader{
+	font-size: 5.2em;
+	text-align: center;
+	padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color:white;
+}
+#otherWaveBannerMall{
+	background-image: url('../images/CuWllN3W8AUHTvj.jpg');
+	background-position: right;
+	height:300px;
+}
+#otherWavesHeaderMall{
+	font-size: 5.2em;
+	text-align: center;
+	padding-top: 90px;
+	font-family: montserrat, sans-serif;
+
+}
+#otherWaveBannerFunk{
+	background-image: url('../images/futureFunk.jpg');
+	background-position: right;
+	height:300px;
+}
+#otherWavesHeaderFunk{
+	font-size: 5.2em;
+	text-align: center;
+	padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color:white;
+}
+#otherWaveBannerChill{
+	background-image: url('../images/D-GkDPAX4AU25tt.jpg');
+	background-position: right;
+	height:300px;
+}
+.WavesText{
+	font-size: 1.5em;
+	font-family: open-sans, sans-serif;
+	width:600px;
+	height:100px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: 30px;
+}
+.otherWavesPics{
+	width:300px;
+	height:200px;
+	margin-top:20px;
+	margin-left: 500px;
+
+}
+/************music**************/
+.musicLink{
+	font-size: 1.5em;
+	font-family: open-sans, sans-serif;
+	width:600px;
+	height:100px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: 100px;
+}
+#musicLinkFuture{
+	font-size: 1.5em;
+	font-family: open-sans, sans-serif;
+	width:600px;
+	height:100px;
+	text-align: center;
+	margin-left: 350px;
+	margin-top: 160px;
+}
+.musicPic{
+	width:250px;
+	height:250px;
+	margin-top:150px;
+	margin-left:60px;
+}
+#musicMainHeader{
+	font-size: 5.2em;
+	text-align: center;
+	padding-top: 90px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+.musicSubHead{
+	font-size: 1.5em;
+	font-family: open-sans, sans-serif;
+	width:600px;
+	height:100px;
+	text-align: center;
+	margin-left: 330px;
+	margin-top: 50px;
+	margin-bottom: -90px;
+	color: white;
+}
+iframe{
+	margin-left: 100px;
+}
+.musicBkg{
+	background-color: pink;
+}
+/*************history************/
+#historyHeader{
+	font-size: 5.2em;
+	text-align: center;
+	padding-top: 90px;
+	margin-left: 100px;
+	font-family: montserrat, sans-serif;
+	color: white;
+}
+.historyText{
+	margin-left:500px;
+	margin-top: -300px;
+	width:350px;
+	font-size: 1.2em;
+	font-family: open-sans, sans-serif;
+	padding:-5px;
+	color: white;
+}
+#historyPic,#historyPic2,#historyPic3,#historyPic4,#historyPic5,#historyPic6{
+	width:300px;
+	height:300px;
+}
+#historyPic{
+	margin-top:150px;
+	margin-left:90px
+}
+#historyPic2{
+ margin-top:200px;
+ margin-left:900px;
+}
+#historyPic3{
+ margin-top:150px;
+ margin-left: 60px;
+}
+#historyPic4{
+	margin-left:900px;
+	margin-top: 100px;
+}
+#historyPic5{
+ margin-left:60px;
+ margin-top:150px;
+}
+#historyPic6{
+  margin-left:900px;
+	margin-top:150px;
+}
